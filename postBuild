@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir .jupyter/custom
+mv custom.js .jupyter/custom
+mv custom.css .jupyter/custom
