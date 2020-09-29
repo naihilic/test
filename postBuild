@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir .jupyter/custom
+mkdir -p .jupyter/custom
 mv custom.js .jupyter/custom
 mv custom.css .jupyter/custom
 mv logo.png .jupyter/custom
