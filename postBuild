@@ -3,3 +3,4 @@
 mkdir .jupyter/custom
 mv custom.js .jupyter/custom
 mv custom.css .jupyter/custom
+mv logo.png .jupyter/custom
