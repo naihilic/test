@@ -4,7 +4,7 @@ if($(IPython.toolbar.selector.concat(' > #AIDU')).length == 0) {
     'icon'    : 'fa fa-angle-double-down',
     'callback': function() {
   var cell=IPython.notebook.get_selected_cell();
-      cell.set_text('%matplotlib inline\nfrom aiya.home import home\nhome.init()');
+      cell.set_text('import sys\nsys.path.insert(0,"aiya.zip")\n%matplotlib inline\nfrom aiya.home import home\nhome.init()');
       IPython.notebook.execute_cell(cell);
     }}], 'AIDU');}
 
